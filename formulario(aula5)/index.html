@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle>Formularios</tittle>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_forms.css" />
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1>
+        </header>
+        <main>
+            <h2>Cadastro do Cliente</h2>
+            <form action="outra_pagina.html" method="GET">
+                <fieldset>
+                    <legende>Dados Pessoais</legende>
+                    <label>
+                        Nome: <input type="text" name="txt_nome" placeholder="Seu nome completo" required />
+                    </label>
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email" placeholder="Seu melhor e-mail" required />
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="number" name="txt_telefone" placeholder="Seu Telefone" required />
+                    </label>
+                    <label class="label-50">
+                        Data de Nascimento: <input type="date" name="txt_data_nasc" required />
+                    </label>
+                    <label class="label-50">
+                        CPF: <input type="number" name="txt_cpf" placeholder="Somente Números" requires />
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label class="label-50">
+                        Rua: <input type="text" name="txt_rua" requires />
+                    </label>
+                    <label class="label-50">
+                        Bairro: <input type="text" name="txt_bairro" requires />
+                    </label>
+                    <label class="label-50">
+                        Cidade: <input type="text" name="txt_cidade" required />
+                    </label>
+                    <label class="label-50">
+                        Estado:
+                        <select>
+                            <option value="">Selecione...</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <p class="center">
+                    <button type="submit" class="botao-enviar">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+        </main>
+        <footer>
+            Loja de Hardware LTDA
+            <adress>
+                Rua da casa do Jão, 6969
+                -casa do jão <abbr title="São Paulo -Brasil">SP</abbr>
+            </adress>
+        </footer>
+    </div>
+</body>
+
+</html>
