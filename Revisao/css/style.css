@@ -1,0 +1,16 @@
+.init{
+    font-size: x-large;
+    margin: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.menu, th, td{
+    background-color: bisque;
+    border-style: solid;
+    border-width: 1px;
+   
+    text-align: center;
+    padding-left: 10%;
+    
+}
